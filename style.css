@@ -81,3 +81,27 @@ footer {
     margin-top: 20px;
 }
 
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.product-list li {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+.product-item {
+    flex: 1; 
+    margin: 10px;
+    text-align: center; 
+}
+
+.product-item img {
+    width: 100%; 
+    height: auto; 
+}
